@@ -26,7 +26,7 @@ class AppChoosing extends Component {
 	}
 
 	handleChange = (selectedOption) => {
-		if (selectedOption.url != this.state.oldUrl) {
+		if (selectedOption.url !== this.state.oldUrl) {
 			// console.log("111", selectedOption.url);
 			// console.log("222", this.state.oldUrl);
 			this.setState({ selectedOption, isLoading: true , oldUrl: selectedOption.url});

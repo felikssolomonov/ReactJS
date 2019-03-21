@@ -9,7 +9,6 @@
     "react-dom": "^16.7.0",
     "react-paginating": "^1.1.0",
     "react-redux": "^6.0.0",
-    "react-scripts": "^2.1.8",
     "react-select": "^2.4.2",
     "redux": "^4.0.1"
   },
@@ -39,5 +38,8 @@
   "bugs": {
     "url": "https://github.com/felikssolomonov/ReactJS/issues"
   },
-  "homepage": "https://github.com/felikssolomonov/ReactJS#readme"
+  "homepage": "https://github.com/felikssolomonov/ReactJS#readme",
+  "devDependencies": {
+    "react-scripts": "^2.1.8"
+  }
 }
